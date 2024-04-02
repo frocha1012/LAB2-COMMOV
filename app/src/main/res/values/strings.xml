@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labs</string>
+    <string name="page_identifier_at1">Page AT1</string>
+    <string name="open_at2">Open AT2</string>
+    <string name="page_identifier_at2">Page AT2</string>
+    <string name="student_info">Student Information: Fernando</string>
+    <string name="close_at2">Close AT2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

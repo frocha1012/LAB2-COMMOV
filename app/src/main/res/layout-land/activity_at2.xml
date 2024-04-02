@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|left"
+        android:paddingLeft="50dp"> <!-- You can adjust this padding to set how far from the left -->
+
+        <TextView
+            android:id="@+id/textViewPageIdAT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_identifier_at2" />
+
+        <TextView
+            android:id="@+id/textViewStudentInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/student_info"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonCloseAT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close_at2"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</LinearLayout>
