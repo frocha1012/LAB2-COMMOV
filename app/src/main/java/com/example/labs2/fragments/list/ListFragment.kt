@@ -1,17 +1,17 @@
-package com.example.labs2.fragments.list
+package com.example.Labs2.fragments.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.labs2.R
-import com.example.labs2.data.vm.NoteViewModel
+import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
+import com.example.Labs2.R
+import com.example.Labs2.data.vm.NoteViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class ListFragment : Fragment() {

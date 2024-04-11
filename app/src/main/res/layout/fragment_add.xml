@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nota"
+            android:text="@string/note"
             android:textSize="25dp" />
 
         <EditText
@@ -26,10 +26,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <DatePicker
+            android:id="@+id/addDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/CustomDatePickerTheme"/>
+
         <Button
             android:id="@+id/save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Save" />
+            android:text="@string/save"
+            android:backgroundTint="@color/dark_green" />
+
+        <Button
+            android:id="@+id/backToList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

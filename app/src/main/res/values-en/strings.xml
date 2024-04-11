@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labs2</string>
+    <string name="note">Note</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="saved">Saved</string>
+    <string name="updated">Updated</string>
+    <string name="selectDate">Select on date</string>
+    <string name="minNote">The date need 5 letters</string>
+    <string name="deleted">Note deleted</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="sureDelete">" Do you want to delete?"</string>
+    <string name="update">Update</string>
+</resources>

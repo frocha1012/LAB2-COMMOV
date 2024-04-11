@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labs2</string>
+    <string name="note">Notiz</string>
+    <string name="date">Datum</string>
+    <string name="save">speichern</string>
+    <string name="delete">ausschalten</string>
+    <string name="back">" zurück zu gehen"</string>
+    <string name="saved">zurück zu gehen</string>
+    <string name="updated">Gerettet</string>
+    <string name="selectDate">Wählen Sie ein Datum aus</string>
+    <string name="minNote">Die Notiz muss mindestens 5 Buchstaben haben</string>
+    <string name="deleted">Notiz erfolgreich gelöscht</string>
+    <string name="yes">Ja</string>
+    <string name="no">NEIN</string>
+    <string name="sureDelete">" Möchten Sie löschen?"</string>
+    <string name="update">Aktualisieren</string>
+</resources>

@@ -1,17 +1,17 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    alias(libs.plugins.androidApplication)
+    alias(libs.plugins.jetbrainsKotlinAndroid)
     id("kotlin-kapt")
     id ("androidx.navigation.safeargs.kotlin")
     id ("kotlin-parcelize")
 }
 
 android {
-    namespace = "com.example.labs2"
+    namespace = "com.example.Labs2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.labs2"
+        applicationId = "com.example.Labs2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -39,6 +39,7 @@ android {
 }
 
 dependencies {
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

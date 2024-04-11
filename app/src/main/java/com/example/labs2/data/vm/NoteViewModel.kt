@@ -1,12 +1,12 @@
-package com.example.labs2.data.vm
+package com.example.Labs2.data.vm
 
-import NotesRepository
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.example.labs2.data.db.NoteDatabase
-import com.example.labs2.data.entities.Note
+import com.example.Labs2.data.db.NoteDatabase
+import com.example.Labs2.data.entities.Note
+import com.example.Labs2.data.repository.NotesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

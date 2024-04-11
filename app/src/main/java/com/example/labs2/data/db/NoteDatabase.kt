@@ -1,13 +1,13 @@
-package com.example.labs2.data.db
+package com.example.Labs2.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.labs2.data.dao.NoteDao
-import com.example.labs2.data.entities.Note
+import com.example.Labs2.data.dao.NoteDao
+import com.example.Labs2.data.entities.Note
 
-@Database(entities = [Note:: class], version = 1, exportSchema = false)
+@Database(entities = [Note :: class], version = 1, exportSchema = false)
 abstract class NoteDatabase : RoomDatabase(){
     abstract  fun  noteDao(): NoteDao
 
@@ -15,7 +15,7 @@ abstract class NoteDatabase : RoomDatabase(){
         @Volatile
         private var INSTANCE: NoteDatabase? = null
 
-        fun getDatabase(context: Context): NoteDatabase {
+        fun getDatabase(context: Context): NoteDatabase{
             val tempInstance = INSTANCE
             if(tempInstance != null){
                 return tempInstance

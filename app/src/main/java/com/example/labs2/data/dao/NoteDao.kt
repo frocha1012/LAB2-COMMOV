@@ -1,6 +1,5 @@
-package com.example.labs2.data.dao
+package com.example.Labs2.data.dao
 
-import com.example.labs2.data.entities.Note
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Delete
@@ -8,6 +7,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
+import com.example.Labs2.data.entities.Note
 
 @Dao
 interface NoteDao {

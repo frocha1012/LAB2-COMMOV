@@ -1,6 +1,8 @@
+package com.example.Labs2.data.repository
+
 import androidx.lifecycle.LiveData
-import com.example.labs2.data.entities.Note
-import com.example.labs2.data.dao.NoteDao
+import com.example.Labs2.data.dao.NoteDao
+import com.example.Labs2.data.entities.Note
 
 class NotesRepository(private  val noteDao: NoteDao) {
     val readAllNotes : LiveData<List<Note>> = noteDao.readAllNotes()
